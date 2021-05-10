@@ -31,13 +31,14 @@
     </ul>
     <div class="px-4 text-center">
       <h1 class="display-5 fw" id="name">SARAH TANNER</h1>
+      <p>Front-End Web Developer</p>
     </div>
   </header>
 
   <div class="container col-xxl-8 px-4 about">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="./assets/profile.jfif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+        <img src="./assets/profile.jfif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" id="profile">
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3" id="about">About</h1>
@@ -50,9 +51,10 @@
 
         <p>Please find more information about my experience below!</p>
 
-        <a href="https://github.com/sktanner" target="blank" class="contactLink">GitHub · </a>
+        <a href="https://github.com/sktanner" target="blank" class="contactLink">GitHub </a><b> · </b>
+        
 
-        <a href="https://www.linkedin.com/in/sarahktanner/" target="blank" class="contactLink">LinkedIn · </a>
+        <a href="https://www.linkedin.com/in/sarahktanner/" target="blank" class="contactLink">LinkedIn</a><b> · </b>
 
         <a href="./assets/Sarah-Tanner-Resume.pdf" download="Sarah-Tanner-Resume" class="contactLink">Download
           Resume</a>
@@ -60,8 +62,9 @@
     </div>
   </div>
 
+<hr>
 
-  <div class="px-4 text-center" id="padding">
+  <div class="px-4 text-center" id="skillsBackground">
     <h1 class="display-5 fw-bold" id="projects">Skills</h1>
     <br>
     <div class="skillsContainer">
@@ -102,6 +105,8 @@
     </div>
   </div>
 
+<hr>
+
   <div class="px-4 text-center" id="padding">
     <h1 class="display-5 fw-bold" id="projects">Projects</h1>
 
@@ -110,7 +115,7 @@
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
-            <div class="card">
+            <div class="card" id="cssCreature">
               <a href="https://codepen.io/Ohsosarah/pen/yLgeORv" target="blank">
                 <img src="./assets/CSS-Creature.png" class="card-img" alt="CSS-Creature" height="225">
               </a>
@@ -118,7 +123,7 @@
           </div>
 
           <div class="col">
-            <div class="card">
+            <div class="card" id="static">
               <a href="https://sktanner.github.io/Static_Website2/" target="blank">
                 <img src="./assets/Static-site.png" class="card-img" alt="Static Website" height="225">
               </a>
@@ -126,7 +131,7 @@
           </div>
 
           <div class="col">
-            <div class="card">
+            <div class="card" id="API1">
               <a href="https://sktanner.github.io/API_Project/" target="blank">
                 <img src="./assets/API-Project1.png" class="card-img" alt="API Project 1" height="225">
               </a>
@@ -134,7 +139,7 @@
           </div>
 
           <div class="col">
-            <div class="card">
+            <div class="card" id="API2">
               <a href="https://api-project2-d7791.firebaseapp.com/" target="blank">
                 <img src="./assets/API-Project2.png" class="card-img" alt="API Project 2" height="225">
               </a>
@@ -142,27 +147,16 @@
           </div>
 
           <div class="col">
-            <div class="card">
-              <svg class="bd-placeholder-img card-img" width="100%" height="225" role="img"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="35%" y="50%" fill="#eceeef"
-                  dy=".3em">Blue Badge TBA</text>
-              </svg>
+            <div class="card" id="blueBadge">
+              <img src="./assets/badges-webdev_blue.png" class="card-img" alt="Blue Badge TBA" height="225">
             </div>
           </div>
 
           <div class="col">
-            <div class="card">
-              <svg class="bd-placeholder-img card-img" width="100%" height="225" role="img"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="35%" y="50%" fill="#eceeef"
-                  dy=".3em">Red Badge TBA</text>
-              </svg>
+            <div class="card" id="redBadge">
+              <img src="./assets/badges-webdev_red.png" class="card-img" alt="Red Badge TBA" height="225">
             </div>
           </div>
-
-
-
         </div>
       </div>
     </div>
@@ -188,8 +182,15 @@
 
   <div class="empty-div"></div>
 
-  <footer class="footer mt-auto py-3 bg-light">
+  <footer class="footer mt-auto py-3">
     <div class="container">
+      <a href="https://www.linkedin.com/in/sarahktanner/" target="blank">
+        <img src="./assets/linkedin.png"  height="20">
+      </a>
+        <a href="https://github.com/sktanner" target="blank">
+          <img src="./assets/GitHub-Icon.png"  height="20">
+        </a>
+          <br>
       <span class="text-muted">Copyright © 2021 - Sarah Tanner</span>
     </div>
   </footer>

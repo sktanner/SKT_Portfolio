@@ -1,5 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #052434;
+    color: white;
 }
 
 .header {
@@ -16,10 +18,14 @@ a {
     color: white;
     font-size: 25px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8DBFE5;
 }
 
 .contactLink {
-    color: black;
     text-decoration: none;
     font-size: 20px;
 }
@@ -29,20 +35,40 @@ a {
     font-weight:500;
 }
 
+#profile {
+    border: 3px solid #052434;
+    border-radius: .25rem;
+}
+
 #padding {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
+#skillsBackground {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    color: #052434;
+}
+
+hr {
+    border-top: 10px solid white;
+    margin: 0;
+}
+
 .about {
-    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: .25rem;
     margin-top: 150px;
     margin-bottom: 100px;
+    padding: 30px;
+    background-color: #283b4a;
 }
 
 p {
     font-weight: 400;
+    font-size: 20px;
 }
 
 .skillsContainer {
@@ -58,10 +84,46 @@ p {
     position: relative;
 }
 
+#cssCreature:hover {
+    transform: scale(1.03) perspective(0pc);
+}
+
+#static:hover {
+    transform: scale(1.03) perspective(0pc);
+}
+
+#API1:hover {
+    transform: scale(1.03) perspective(0pc);
+}
+
+#API2:hover {
+    transform: scale(1.03) perspective(0pc);
+}
+
+#blueBadge:hover {
+    transform: scale(1.03) perspective(0pc);
+}
+
+#redBadge:hover {
+    transform: scale(1.03) perspective(0pc);
+}
+
+.btn-primary {
+    background-color: #283b4a;
+    border-color: #283b4a;
+}
+
+.btn-primary:hover {
+    background-color: #8DBFE5;
+    background-color: #8DBFE5;
+}
+
 .empty-div {
     height: 100px;
 }
 
 .footer {
     text-align: center;
+    background-color: white;
+    color: #283b4a;
 }
