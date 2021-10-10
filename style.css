@@ -84,27 +84,7 @@ p {
     position: relative;
 }
 
-#cssCreature:hover {
-    transform: scale(1.03) perspective(0pc);
-}
-
-#static:hover {
-    transform: scale(1.03) perspective(0pc);
-}
-
-#API1:hover {
-    transform: scale(1.03) perspective(0pc);
-}
-
-#API2:hover {
-    transform: scale(1.03) perspective(0pc);
-}
-
-#blueBadge:hover {
-    transform: scale(1.03) perspective(0pc);
-}
-
-#redBadge:hover {
+.projectImg:hover {
     transform: scale(1.03) perspective(0pc);
 }
 
